@@ -1,5 +1,4 @@
-/* Copyright (c) 2015 Ryan Castellucci, All Rights Reserved */
-#include <time.h>
+/* Copyright (c) 2015 Ryan Castellucci, All Rights
 #include <unistd.h>
 #include <assert.h>
 #include <stdlib.h>
@@ -20,8 +19,6 @@
 #include "../hex.h"
 
 #include "brainv2.h"
-
-#define SALT_BITS_PER_THREAD 256
 #define SALT_BYTES_PER_THREAD (SALT_BITS_PER_THREAD / 8)
 #define THREADS 256
 #define KEY_SIZE 128
